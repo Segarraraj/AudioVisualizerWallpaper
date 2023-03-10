@@ -1,0 +1,17 @@
+{
+  "AppVersion": "2.0.6.0",
+  "Title": "Audio Visualizer",
+  "Thumbnail": "Thumbnail.jpg",
+  "Preview": "Preview.gif",
+  "Desc": "Audio and weather visualizer ",
+  "Author": "Segarraraj",
+  "License": "GPL",
+  "Contact": "https://github.com/Segarraraj/AudioVisualizerWallpaper",
+  "Type": 1,
+  "FileName": "index.html",
+  "Arguments": "",
+  "IsAbsolutePath": false,
+  "Id": null,
+  "Tags": null,
+  "Version": 0
+}
