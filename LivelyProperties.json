@@ -1,3 +1,9 @@
 {
-
+    "bgImg": {
+        "type": "folderDropdown",
+        "value": "default.jpg",
+        "text": "Background",
+        "filter": "*.jpg|*.png",
+        "folder": "images/background"
+      }
 }
