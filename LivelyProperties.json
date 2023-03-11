@@ -1,9 +1,20 @@
 {
+    "bgLabel": {
+        "type": "label",
+        "value": "Background"
+    },
     "bgImg": {
         "type": "folderDropdown",
         "value": "default.jpg",
         "text": "Background",
         "filter": "*.jpg|*.png",
         "folder": "images/background"
-      }
+    },
+    "bgBlur": {
+        "type": "slider",
+        "value": "4",
+        "text": "Background blur",
+        "min": 0,
+        "max": 8
+    }
 }

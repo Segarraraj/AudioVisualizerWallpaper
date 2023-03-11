@@ -11,7 +11,6 @@
     background-color: #F3B017;
     
     filter: blur(4px);
-    -webkit-filter: blur(4px);
 
     width: 100vw;
     height: 100vh;
