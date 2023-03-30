@@ -33,7 +33,12 @@
     },
     "00hour": {
         "type": "checkbox",
-        "value": false,
+        "value": true,
         "text": "00 Hour"
+    },
+    "ddmmyyyy": {
+        "type": "checkbox",
+        "value": false,
+        "text": "DD MM YYYY Format"
     }
 }
