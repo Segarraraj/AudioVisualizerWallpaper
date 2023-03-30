@@ -4,6 +4,11 @@
     overflow: hidden;
 }
 
+body {
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+}
+
 #main {
     background-size: cover;
     background-position: center;
@@ -15,4 +20,25 @@
 
     width: 100vw;
     height: 100vh;
+}
+
+#clock {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#clock #hour {
+    font-weight: 500;
+    font-size: 128px;
+    text-shadow: 1px 2px 4px rgba(0,0,0,0.3);
+}
+
+#clock #date {
+    text-align: center;
+    font-weight: 500;
+    font-size: 24px;
+    text-shadow: 1px 2px 2px rgba(0,0,0,0.3);
+    margin-top: -16px;
 }
