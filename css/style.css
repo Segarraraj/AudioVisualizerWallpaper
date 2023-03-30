@@ -27,18 +27,27 @@ body {
     top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-shadow: 1px 2px 2px rgba(0,0,0,0.3);
 }
 
 #clock #hour {
     font-weight: 500;
     font-size: 128px;
     text-shadow: 1px 2px 4px rgba(0,0,0,0.3);
+    display: inline;
+}
+
+#clock span {
+    display: inline-block;
+    margin-top: 36px;
+    margin-left: 18px;
+    vertical-align: top;
+    font-size: 24px;
 }
 
 #clock #date {
     text-align: center;
     font-weight: 500;
     font-size: 24px;
-    text-shadow: 1px 2px 2px rgba(0,0,0,0.3);
     margin-top: -16px;
 }

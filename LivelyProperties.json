@@ -16,5 +16,24 @@
         "text": "Background blur",
         "min": 0,
         "max": 8
+    },
+    "clockLabel": {
+        "type": "label",
+        "value": "Clock"
+    },
+    "locale": {
+        "text": "Locale",
+        "type": "textbox",
+        "value": "es-ES"
+    },
+    "12hour": {
+        "type": "checkbox",
+        "value": false,
+        "text": "12 Hour"
+    },
+    "00hour": {
+        "type": "checkbox",
+        "value": false,
+        "text": "00 Hour"
     }
 }
