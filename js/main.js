@@ -54,3 +54,21 @@ function updateClock() {
 
     setTimeout(updateClock, 60000 - date.getSeconds() * 1000 - date.getMilliseconds());
 }
+
+function livelyCurrentTrack(data) {
+    let obj = JSON.parse(data);
+    console.log(obj);
+
+    if (obj == null) {
+        document.getElementById("nowPlaying").style.display = "none";
+    } else {        
+        document.getElementById("songName").innerHTML = obj.Title;
+        document.getElementById("songAuthor").innerHTML = obj.Artist;
+        if (obj.Thumbnail != null) {
+            document.getElementById("albumImage").style.display = "inline";
+            document.getElementById("albumImage").src = "data:image/png;base64, " + obj.Thumbnail;
+        } else {
+            document.getElementById("albumImage").style.display = "none";
+        }
+    }
+}
